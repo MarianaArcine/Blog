@@ -7,16 +7,13 @@
 
 .cabeçalho{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 
 }
 
 .img_logo_menu{
-    width: 333px;
-    height: 60px;
-
-    margin: 3px 292px 7px 65px;
+    margin: 3px 830px 7px 118px;
 }
 
 nav a{
@@ -34,27 +31,156 @@ nav a{
 .search{
     display: flex;
     align-items: center;
-    width: 18px;
- 
-
+    margin: 0 66px 0 33px;
 }
 
 .btn-header {
-    margin-right: 65px;
+    margin-right: 132px;
 }
 
 .btn-header .btn{
     font-family: 'Work Sans';
     font-weight: 600;
     font-size: 16px;
-
     color: #FFFFFF;
-
     background: #9A6555;
-
     border:none;
-
     width: 164px;
     height: 56px;
+}
 
+
+/*infos embaixo da foto hero*/
+
+
+.info_hero{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    height: 212px;
+
+    gap: 62px;
+
+    background: #FEFBF9;
+
+}
+
+.hero-bloco {
+    width: 343px;
+   
+}
+
+.img_hero img{
+    width: 100%;
+}
+.info_hero .autoestima-hero{
+    font-family: 'Playfair Display';
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.05em;
+    color: #9A6555;
+}
+
+p.autoestima-text{
+    font-family: 'Work Sans';
+    font-size: 22px;
+    line-height: 26px;
+    color: #202020;
+    padding-top: 7px;
+}
+
+.info_hero .relacionamento-hero, .saude-hero{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.05em;
+    color: rgba(32, 32, 32, 0.65);
+}
+
+p.relacionamento-text, p.saude-text{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    color: rgba(32, 32, 32, 0.65);
+    padding-top: 7px;
+}
+
+/* sessão mais lidas*/ 
+
+.lidas{
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.text-mais-lidas{
+    font-family: 'Playfair Display'; 
+    font-size: 48px;
+    line-height: 64px;
+    letter-spacing: 0.05em;
+    color: #9A6555;
+
+}
+
+.text-mais-lidas h1{
+
+   height: 64px;
+   margin-bottom: 80px;
+
+}
+
+.lidas h3{
+    font-family: 'Playfair Display';
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 32px;
+ 
+    letter-spacing: 0.05em;
+
+    color: #9A6555;
+}
+
+.bloco-lidas{
+    padding-top: 40px;
+
+}
+
+.lidas .trabalho-lidas{
+    font-family: 'Work Sans';
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+
+    color: #202020;
+
+    height: 223px;
+    width: 681px;
+
+    padding: 16px
+
+}
+
+.lidas-text-lado {
+    width: 380px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+
+    color: #202020;
+}
+
+.lidas-text-lado p{
+    padding-top: 14px;
+}
+
+.texto-lidas{
+   padding: 12px;
 }
